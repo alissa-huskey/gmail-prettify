@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "CSS changes to the new gmail including: change the compose button, change the background of the Inbox label, remove the hangouts chat interface.",
-  "homepage_url": "http://extensionizr.com",
+  "homepage_url": "https://github.com/alissa-huskey/new-gmail-less-ugly",
   "icons": {
     "16": "icons/icon-16.png",
     "19": "icons/icon-19.png",
