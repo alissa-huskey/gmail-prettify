@@ -4,10 +4,10 @@ Development Notes
 Reference
 ---------
 
-Extensionizer                    https://extensionizr.com/
-How to Make a Chrome Extension   https://hackr.io/blog/how-to-make-a-chrome-extension
-Chrome Dev Guide                 https://developer.chrome.com/extensions/devguide
-Samples                          https://developer.chrome.com/extensions/samples
+- [Extensionizer](https://extensionizr.com/)
+- [How to Make a Chrome Extension](https://hackr.io/blog/how-to-make-a-chrome-extension)
+- [Chrome Dev Guide](https://developer.chrome.com/extensions/devguide)
+- [Sample](https://developer.chrome.com/extensions/samples)
 
 
 Local Install
