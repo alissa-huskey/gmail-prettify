@@ -1,27 +1,15 @@
 {
-  "name": "New Gmail Less Ugly",
+  "name": "Gmail Prettify",
+  "description": "Make gmail prettier.",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "CSS changes to the new gmail to make it less ugly..",
-  "homepage_url": "https://github.com/alissa-huskey/new-gmail-less-ugly",
-  "icons": {
-    "16": "icons/icon-16.png",
-    "19": "icons/icon-19.png",
-    "32": "icons/icon-32.png",
-    "48": "icons/icon-48.png",
-    "128": "icons/icon-128.png"
-  },
-  "permissions": [
-    "activeTab"
-  ],
+  "homepage_url": "https://github.com/alissa-huskey/gmail-prettify",
+  "icons": { "16": "icon.png" },
+  "permissions": [ "activeTab" ],
   "content_scripts": [
     {
-      "matches": [
-        "https://mail.google.com/*"
-      ],
-      "css": [
-        "src/inject/inject.css"
-      ]
+      "matches": [ "https://mail.google.com/mail/*" ],
+      "js": [ "content.js" ]
     }
   ]
 }
