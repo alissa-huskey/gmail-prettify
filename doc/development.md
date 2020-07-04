@@ -7,18 +7,24 @@ Reference
 - [Extensionizer](https://extensionizr.com/)
 - [How to Make a Chrome Extension](https://hackr.io/blog/how-to-make-a-chrome-extension)
 - [Chrome Dev Guide](https://developer.chrome.com/extensions/devguide)
-- [Sample](https://developer.chrome.com/extensions/samples)
+- [Samples](https://developer.chrome.com/extensions/samples)
 
 
 Local Install
 -------------
 
-1. Open the Extension Management page by navigating to chrome://extensions (or
-   brave://extensions/ for Brave users).
+1. Clone this repository:
 
-2. The Extension Management page can also be opened by clicking on the Chrome
-   menu, hovering over More Tools then selecting Extensions.
+   ```bash
+   $ git clone https://github.com/alissa-huskey/gmail-prettify.git
+   ```
 
-3. Enable Developer Mode by clicking the toggle switch next to Developer mode.
 
-4. Click the LOAD UNPACKED button and select the extension directory.
+2. Open the **Extension Management** page by navigating to `chrome://extensions`
+   (Chrome) or `brave://extensions/` (Brave).
+
+3. In the upper-right corner, toggle the `Developer mode` switch the right to
+   enable.
+
+4. Click the `Load Unpacked` button in the upper-left corner and select the
+   extension directory located at `gmail-prettify/src`.
